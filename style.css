@@ -1,0 +1,86 @@
+/* Background gradient for whole page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f3f9ff, #d9f1ff, #fff);
+  background-attachment: fixed;
+}
+
+/* Hero section */
+.hero-section {
+  position: relative;
+  background: url('images/banner.jpg') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid #ffc107;
+}
+
+.hero-section .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.hero-section h1, .hero-section p {
+  margin: 0;
+  color: #fff;
+}
+
+/* Product Cards */
+.product-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+}
+.product-card img {
+  border-radius: 15px 15px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Cart + Order form containers */
+.cart, .order-form {
+  background: #ffffffcc;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+  backdrop-filter: blur(6px);
+  margin-bottom: 30px;
+}
+
+/* Headings */
+h2, h3 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #007bff, #00a2ff);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #0088cc);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #28a745, #34d058);
+  border: none;
+}
+.btn-success:hover {
+  background: linear-gradient(135deg, #1e7e34, #28a745);
+}
+
+/* Footer */
+footer {
+  background: #343a40;
+  color: #fff;
+}
