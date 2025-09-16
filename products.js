@@ -2,26 +2,26 @@
 const products = [
   {
     id: 1,
-    name: "Luxury Sofa",
-    desc: "Premium quality sofa for your living room.",
-    price: "12000৳",
-    image: "https://via.placeholder.com/400x300.png?text=Luxury+Sofa",
+    name: "Three Piece-1",
+    desc: "Premium quality",
+    price: "3500৳",
+    image: "img/product-1.jpg",
     link: "product1.html"
   },
   {
     id: 2,
-    name: "Smart Lamp",
-    desc: "Beautiful lamp with smart controls.",
-    price: "3500৳",
-    image: "https://via.placeholder.com/400x300.png?text=Smart+Lamp",
+    name: "Sweater for Girls",
+    desc: "Winter Collection",
+    price: "4000৳",
+    image: "img/product-2.jpg",
     link: "product2.html"
   },
   {
     id: 3,
-    name: "Wooden Table",
-    desc: "Durable wooden table with premium finish.",
+    name: "Three Piece-2",
+    desc: "Smart Choice",
     price: "7500৳",
-    image: "https://via.placeholder.com/400x300.png?text=Wooden+Table",
+    image: "img/product-3.jpg",
     link: "product3.html"
   }
 ];
